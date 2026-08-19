@@ -19,3 +19,15 @@ Cette fonctionnalité constitue la première brique du système de Security Moni
 ## Prochaine étape
 
 Ajouter de nouvelles capacités de surveillance et d'analyse des événements du serveur.
+
+## Fonctionnalités actuelles
+
+- Commande `!ping`
+- Détection des nouveaux membres
+- Journalisation des arrivées dans `🔐-security-logs`
+- Détection du mot-clé suspect `phishing`
+- Journalisation des alertes de sécurité
+
+## État
+
+Projet finalisé — version 1.0.
