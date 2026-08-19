@@ -26,5 +26,12 @@ async def on_message(message):
     if message.content == "!ping":
         await message.channel.send("🛡️ Pong !")
 
+@bot.event
+async def on_member_join(member):
+    channel = discord.utils.get(member.guild.text_channels, name="🔐 security-logs")
+
+    if channel:
+        await channel.send(f"🚨 Nouveau membre : {member.mention} a rejoint le serveur.")
+
 
 bot.run(token)
